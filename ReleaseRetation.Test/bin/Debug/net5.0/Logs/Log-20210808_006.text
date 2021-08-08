@@ -1,0 +1,27 @@
+2021-08-08 20:29:48.972 +10:00 [Information] Request starting HTTP/1.1 GET http://localhost/Release/GetReleases application/json 127
+2021-08-08 20:29:48.974 +10:00 [Warning] Failed to determine the https port for redirect.
+2021-08-08 20:29:48.974 +10:00 [Information] Executing endpoint '"ReleaseRetation.Controllers.ReleaseController.GetReleases (ReleaseRetation)"'
+2021-08-08 20:29:48.976 +10:00 [Information] Route matched with "{action = \"GetReleases\", controller = \"Release\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.Collections.Generic.List`1[ReleaseRetation.Models.Release]]]] GetReleases(ReleaseRetation.Models.ProjectRelease)" on controller "ReleaseRetation.Controllers.ReleaseController" ("ReleaseRetation").
+2021-08-08 20:29:48.979 +10:00 [Information] There are 3 release for Project-1 project on Environment-1 environment:
+2021-08-08 20:29:48.979 +10:00 [Information] | Release-2 (Version: 1.0.1, Created: 2/01/2000 9:00:00 AM) | Deployment-2 (DeployedAt: 2/01/2000 10:00:00 AM)
+2021-08-08 20:29:48.979 +10:00 [Information] | Release-1 (Version: 1.0.0, Created: 1/01/2000 9:00:00 AM) | Deployment-1 (DeployedAt: 1/01/2000 10:00:00 AM)
+2021-08-08 20:29:48.979 +10:00 [Information] Release-2 kept because it was the most recently deployed Environment-1
+2021-08-08 20:29:48.980 +10:00 [Information] There are 2 release for Project-1 project on Environment-2 environment:
+2021-08-08 20:29:48.981 +10:00 [Information] | Release-1 (Version: 1.0.0, Created: 1/01/2000 9:00:00 AM) | Deployment-3 (DeployedAt: 2/01/2000 11:00:00 AM)
+2021-08-08 20:29:48.981 +10:00 [Information] Release-1 kept because it was the most recently deployed Environment-2
+2021-08-08 20:29:48.981 +10:00 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[ReleaseRetation.Models.Release, ReleaseRetation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2021-08-08 20:29:48.982 +10:00 [Information] Executed action "ReleaseRetation.Controllers.ReleaseController.GetReleases (ReleaseRetation)" in 5.5001ms
+2021-08-08 20:29:48.982 +10:00 [Information] Executed endpoint '"ReleaseRetation.Controllers.ReleaseController.GetReleases (ReleaseRetation)"'
+2021-08-08 20:29:48.982 +10:00 [Information] Request finished HTTP/1.1 GET http://localhost/Release/GetReleases application/json 127 - 200 - application/json;+charset=utf-8 10.4485ms
+2021-08-08 20:37:40.876 +10:00 [Information] Request starting HTTP/1.1 GET http://localhost/Release/GetReleases application/json 111
+2021-08-08 20:37:40.910 +10:00 [Warning] Failed to determine the https port for redirect.
+2021-08-08 20:37:40.939 +10:00 [Information] Executing endpoint '"ReleaseRetation.Controllers.ReleaseController.GetReleases (ReleaseRetation)"'
+2021-08-08 20:37:40.973 +10:00 [Information] Route matched with "{action = \"GetReleases\", controller = \"Release\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[System.Collections.Generic.List`1[ReleaseRetation.Models.Release]]]] GetReleases(ReleaseRetation.Models.ProjectRelease)" on controller "ReleaseRetation.Controllers.ReleaseController" ("ReleaseRetation").
+2021-08-08 20:37:41.044 +10:00 [Information] There are 3 release for Project-1 project on Environment-1 environment:
+2021-08-08 20:37:41.054 +10:00 [Information] | Release-2 (Version: 1.0.1, Created: 2/01/2000 9:00:00 AM) | Deployment-2 (DeployedAt: 2/01/2000 10:00:00 AM)
+2021-08-08 20:37:41.055 +10:00 [Information] | Release-1 (Version: 1.0.0, Created: 1/01/2000 9:00:00 AM) | Deployment-1 (DeployedAt: 1/01/2000 10:00:00 AM)
+2021-08-08 20:37:41.055 +10:00 [Information] Release-2 kept because it was the most recently deployed Environment-1
+2021-08-08 20:37:41.064 +10:00 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[ReleaseRetation.Models.Release, ReleaseRetation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2021-08-08 20:37:41.093 +10:00 [Information] Executed action "ReleaseRetation.Controllers.ReleaseController.GetReleases (ReleaseRetation)" in 112.222ms
+2021-08-08 20:37:41.094 +10:00 [Information] Executed endpoint '"ReleaseRetation.Controllers.ReleaseController.GetReleases (ReleaseRetation)"'
+2021-08-08 20:37:41.098 +10:00 [Information] Request finished HTTP/1.1 GET http://localhost/Release/GetReleases application/json 111 - 200 - application/json;+charset=utf-8 228.0770ms
